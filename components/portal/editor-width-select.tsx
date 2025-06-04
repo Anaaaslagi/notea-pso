@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import useI18n from 'libs/web/hooks/use-i18n';
 import PortalState from 'libs/web/state/portal';
-import { Menu, MenuItem } from '@material-ui/core';
+import { Menu, MenuItem } from '@mui/material';
 import { EDITOR_SIZE } from 'libs/shared/meta';
 import NoteState from 'libs/web/state/note';
 import UIState from 'libs/web/state/ui';

@@ -1,5 +1,5 @@
 import { FC, useCallback, useState } from 'react';
-import { TextField } from '@material-ui/core';
+import { TextField } from '@mui/material';
 import { defaultFieldConfig } from './settings-container';
 import useI18n from 'libs/web/hooks/use-i18n';
 import NoteTreeState from 'libs/web/state/tree';

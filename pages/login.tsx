@@ -1,4 +1,4 @@
-import { TextField, Button } from '@material-ui/core';
+import { TextField, Button } from '@mui/material';
 import { SSRContext, ssr } from 'libs/server/connect';
 import { applyCsrf } from 'libs/server/middlewares/csrf';
 import { useSession } from 'libs/server/middlewares/session';

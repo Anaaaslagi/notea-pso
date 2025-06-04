@@ -1,5 +1,5 @@
 import { FC, useEffect } from 'react';
-import { Dialog, DialogProps, ModalProps } from '@material-ui/core';
+import { Dialog, DialogProps, ModalProps } from '@mui/material';
 import UIState from 'libs/web/state/ui';
 import classNames from 'classnames';
 import router from 'next/router';

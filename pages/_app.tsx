@@ -4,10 +4,10 @@ import '@fontsource/noto-sans/latin.css';
 import UIState from 'libs/web/state/ui';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import { ThemeProvider, useTheme } from 'next-themes';
+import { useTheme } from 'next-themes';
 import PortalState from 'libs/web/state/portal';
 import Div100vh from 'react-div-100vh';
-import { MuiThemeProvider, StylesProvider } from '@material-ui/core';
+import { ThemeProvider } from '@mui/material/styles';
 import { useEffect, useMemo } from 'react';
 import { Settings } from 'libs/shared/settings';
 import I18nProvider from 'libs/web/utils/i18n-provider';
@@ -15,7 +15,8 @@ import CsrfTokenState from 'libs/web/state/csrf-token';
 import { muiLocale } from 'locales';
 import { ServerProps } from 'libs/server/connect';
 import { SnackbarProvider } from 'notistack';
-import { createTheme } from '@material-ui/core/styles';
+import { createTheme } from '@mui/material/styles';
+import { StylesProvider } from '@mui/styles';
 
 const handleRejection = (event: any) => {
     // react-beautiful-dnd 会捕获到 `ResizeObserver loop limit exceeded`
@@ -64,7 +65,7 @@ const AppInner = ({
             createTheme(
                 {
                     palette: {
-                        type: resolvedTheme === 'dark' ? 'dark' : 'light',
+                        mode: resolvedTheme === 'dark' ? 'dark' : 'light',
                         primary: {
                             /**
                              * colors https://tailwindcss.com/docs/customizing-colors
@@ -94,7 +95,7 @@ const AppInner = ({
 
     return (
         <StylesProvider injectFirst>
-            <MuiThemeProvider theme={muiTheme}>
+            <ThemeProvider theme={muiTheme}>
                 <CsrfTokenState.Provider initialState={pageProps.csrfToken}>
                     <I18nProvider
                         locale={settings?.locale}
@@ -119,7 +120,7 @@ const AppInner = ({
                         </UIState.Provider>
                     </I18nProvider>
                 </CsrfTokenState.Provider>
-            </MuiThemeProvider>
+            </ThemeProvider>
         </StylesProvider>
     );
 };

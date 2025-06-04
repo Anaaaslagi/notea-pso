@@ -1,5 +1,5 @@
 import React, { FC, useCallback, useEffect, useState } from 'react';
-import { Popover, FormControlLabel, Switch } from '@material-ui/core';
+import { Popover, FormControlLabel, Switch } from '@mui/material';
 import PortalState from 'libs/web/state/portal';
 import IconButton from 'components/icon-button';
 import HotkeyTooltip from 'components/hotkey-tooltip';

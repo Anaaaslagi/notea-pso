@@ -1,4 +1,4 @@
-import { PopperProps, Popper } from '@material-ui/core';
+import { PopperProps, Popper } from '@mui/material';
 import { useRouter } from 'next/router';
 import { FC, useCallback, useEffect, useRef } from 'react';
 

@@ -11,7 +11,7 @@ import TrashModal from 'components/portal/trash-modal/trash-modal';
 import SearchState from 'libs/web/state/search';
 import SearchModal from 'components/portal/search-modal/search-modal';
 import ShareModal from 'components/portal/share-modal';
-import { SwipeableDrawer } from '@material-ui/core';
+import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import SidebarMenu from 'components/portal/sidebar-menu/sidebar-menu';
 import { NoteModel } from 'libs/shared/note';
 import PreviewModal from 'components/portal/preview-modal';

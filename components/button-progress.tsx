@@ -1,4 +1,4 @@
-import { Button, ButtonProps, CircularProgress } from '@material-ui/core';
+import { Button, ButtonProps, CircularProgress } from '@mui/material';
 import classNames from 'classnames';
 import { forwardRef } from 'react';
 

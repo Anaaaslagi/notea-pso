@@ -1,5 +1,5 @@
 import { FC, useCallback, ChangeEvent } from 'react';
-import { MenuItem, TextField } from '@material-ui/core';
+import { MenuItem, TextField } from '@mui/material';
 import { defaultFieldConfig } from './settings-container';
 import useI18n from 'libs/web/hooks/use-i18n';
 import { useTheme } from 'next-themes';

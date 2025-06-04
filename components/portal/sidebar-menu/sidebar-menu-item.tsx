@@ -3,7 +3,7 @@ import { NoteModel } from 'libs/shared/note';
 import NoteState from 'libs/web/state/note';
 import PortalState from 'libs/web/state/portal';
 import { forwardRef, useCallback, useMemo } from 'react';
-import { MenuItem } from '@material-ui/core';
+import { MenuItem } from '@mui/material';
 import UIState from 'libs/web/state/ui';
 
 export enum MENU_HANDLER_NAME {

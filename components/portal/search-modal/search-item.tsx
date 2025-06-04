@@ -7,7 +7,7 @@ import PortalState from 'libs/web/state/portal';
 import classNames from 'classnames';
 import useScrollView from 'libs/web/hooks/use-scroll-view';
 import NoteTreeState from 'libs/web/state/tree';
-import { Breadcrumbs } from '@material-ui/core';
+import { Breadcrumbs } from '@mui/material';
 
 const SearchItem: FC<{
     note: NoteCacheItem;

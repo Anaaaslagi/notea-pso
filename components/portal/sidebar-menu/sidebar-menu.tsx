@@ -1,4 +1,4 @@
-import { Menu } from '@material-ui/core';
+import { Menu } from '@mui/material';
 import { FC, useMemo } from 'react';
 import {
     ClipboardCopyIcon,

@@ -11,7 +11,7 @@ import {
   AccordionDetails as MuiAccordionDetails,
   AccordionSummary as MuiAccordionSummary,
   withStyles
-} from '@material-ui/core';
+} from '@mui/material';
 import { ChevronDownIcon } from '@heroicons/react/outline';
 import useI18n from 'libs/web/hooks/use-i18n';
 import { errorToString, isProbablyError } from 'libs/shared/util';

@@ -1,4 +1,4 @@
-import { Tooltip, TooltipProps } from '@material-ui/core';
+import { Tooltip, TooltipProps } from '@mui/material';
 import UIState from 'libs/web/state/ui';
 import { noop } from 'lodash';
 import { FC } from 'react';

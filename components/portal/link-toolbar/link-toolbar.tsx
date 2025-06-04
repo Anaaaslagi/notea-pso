@@ -1,4 +1,4 @@
-import { Paper } from '@material-ui/core';
+import { Paper } from '@mui/material';
 import HotkeyTooltip from 'components/hotkey-tooltip';
 import IconButton from 'components/icon-button';
 import useI18n from 'libs/web/hooks/use-i18n';

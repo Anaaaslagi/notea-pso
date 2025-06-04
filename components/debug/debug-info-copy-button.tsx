@@ -1,4 +1,4 @@
-import { Button } from '@material-ui/core';
+import { Button } from '@mui/material';
 import useI18n from 'libs/web/hooks/use-i18n';
 import { FC } from 'react';
 import { logLevelToString, DebugInformation } from 'libs/shared/debugging';

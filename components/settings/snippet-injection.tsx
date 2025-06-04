@@ -1,6 +1,6 @@
 import { ChangeEvent, FC, FocusEvent, useCallback, useEffect } from 'react';
 import useI18n from 'libs/web/hooks/use-i18n';
-import { TextField } from '@material-ui/core';
+import { TextField } from '@mui/material';
 import { defaultFieldConfig } from './settings-container';
 import UIState from 'libs/web/state/ui';
 import { DEMO_INJECTION } from 'libs/shared/const';

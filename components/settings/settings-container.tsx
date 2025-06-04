@@ -1,4 +1,4 @@
-import { TextFieldProps } from '@material-ui/core';
+import { TextFieldProps } from '@mui/material';
 import { FC } from 'react';
 import { DailyNotes } from './daily-notes';
 import { Language } from './language';

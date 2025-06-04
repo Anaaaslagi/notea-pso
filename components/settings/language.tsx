@@ -1,5 +1,5 @@
 import { FC, useCallback, ChangeEvent } from 'react';
-import { MenuItem, TextField } from '@material-ui/core';
+import { MenuItem, TextField } from '@mui/material';
 import UIState from 'libs/web/state/ui';
 import { defaultFieldConfig } from './settings-container';
 import router from 'next/router';

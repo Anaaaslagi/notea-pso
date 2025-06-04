@@ -1,5 +1,5 @@
 import React, { FC, useCallback, useEffect, useState } from 'react';
-import { Paper, Fade } from '@material-ui/core';
+import { Paper, Fade } from '@mui/material';
 import PortalState from 'libs/web/state/portal';
 import { useRouter } from 'next/router';
 import { NoteCacheItem } from 'libs/web/cache';
